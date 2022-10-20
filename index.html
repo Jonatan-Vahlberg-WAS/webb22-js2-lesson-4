@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Titel på sidan</title>
+    <style>
+      body {
+        background-color: #fff;
+        font-size: 16px;
+      }
+      .small-text {
+        font-size: 12px;
+      }
+      .images {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 16px;
+      }
+      .image-wrapper {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(41, 41, 41);
+      }
+      #featured-article-button {
+        margin: 8px 0 24px;
+      }
+      .image {
+        width: 200px;
+        height: 200px !important;
+      }
+
+      .footer {
+        margin-top: 32px;
+        border-top: 2px solid #000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="nav">
+        <div class="ul">
+          <div>
+            <a href="./english.html"> English page </a>
+          </div>
+          <div>
+            <a href="#"> om oss </a>
+          </div>
+
+          <div>
+            <a href="#"> Kontakt </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <span>Sid titel</span>
+      <div class="section">
+        <div class="article">
+          <span class="article-title">Nyhet titel</span>
+          <div>
+              <img src="./img/1.jpg" />
+            </div>
+          <div class="section-content">
+            <span class="small-text">
+                <strong>
+                    Den här meningen är extremt viktig
+                </strong>
+                Löksås ipsum göras genom del rot blivit som, sin se gör ännu stig
+                enligt omfångsrik, helt vemod söka ännu så vemod. Tidigare av söka
+                när bland strand tidigare redan jäst gör, äng olika ordningens nya
+                dimmhöljd kunde jäst omfångsrik vidsträckt helt, mjuka och sjö hav
+                se ännu denna upprätthållande. Björnbär samma om samma där för
+                hela mjuka och annat fram där, bra mot kom samtidigt jäst
+                vidsträckt och hav sorgliga.
+            </span>
+          </div>
+          <div id="featured-article-button">Klicka här</div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="images">
+            <div class="image-wrapper">
+                <img src="https://picsum.photos/100/100"  class="image"/>
+            </div>
+            <div class="image-wrapper">
+                <img src="https://picsum.photos/400/400s"  class="image" alt="Bild fungerar inte"/>
+            </div>
+            <div class="image-wrapper">
+                <img src="https://picsum.photos/300/300"  class="image"/>
+            </div>
+            <div class="image-wrapper">
+                <img src="https://picsum.photos/400/400s"  class="image"/>
+            </div>
+        </div>
+      </div>
+      <div class="section">
+        <span>Viktig text</span>
+        <br>
+        <span>undertext</span>
+        <br>
+        <span>Mindre viktig text</span>
+        <br>
+        <span>Mellan viktig text</span>
+      </div>
+    </div>
+    <div class="footer">
+        <span>Företaget</span>
+        <br>
+        <span>0755888327</span>
+        <br>
+        <span>Företagsvägen 78</span>
+        <br>
+        <span>foretags.mail@mail.com</span>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
